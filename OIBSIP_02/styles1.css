@@ -1,0 +1,154 @@
+body {
+   background-color: aqua;
+   border-radius: 0ch;
+   padding: 50px;
+    font-family: 'Bona Nova', serif;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header{
+    position:relative;
+    top:-20px;
+    left:-8px;
+    margin-right:-16px;
+    background-image:url("img1.jpg"); */
+    background-size:cover;
+    background-position:center;
+    height:600px;
+  }
+  
+  #lp-logo{
+    width:4vw;
+    padding:17px;
+  }
+  #text{
+    color:bisque;
+    font-size: larger;
+    background-color: rgb(255, 0, 13);
+  }
+  #title{
+    position:absolute;
+    font-size:2vw;
+    color:white;
+    top:2vh;
+    left:8vw;
+  }
+
+  .tribute-p{
+    font-size:1.3vw;
+    padding:0.3vw;
+    text-indent: 5vw;
+    
+  }
+  
+  #tribute-link{
+    text-decoration:none;
+  }
+  
+  #tribute-link:hover{
+    text-decoration:underline;
+  }
+
+  #img-div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgray;
+  }
+  
+  #image{
+    width:50vw;
+    height:80vh;
+  }
+  
+  #img-caption{
+    padding:10px;
+    font-size:1.3vw
+  }
+
+  #footer{
+    position:relative;
+    margin-top:100px;
+    left:-7px;
+    margin-right:-15px;
+    background-color:lightgray;
+    height:5vh;
+    text-align:center;
+    padding:22px;
+    font-size:1.25vw;
+  }
+
+  /* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .header{
+height:20vh;
+}
+  #image{
+width:20vw;
+height:15vh;
+}
+
+#footer{
+    height:1vh;
+    padding:10px;
+    font-size:1.2vw;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header{
+height:30vh;
+}
+  #image{
+width:25vw;
+height:25vh;
+}
+
+#footer{
+    height:2vh;
+    padding:14px;
+    font-size:1.2vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .header{
+height:60vh;
+}
+  #image{
+width:40vw;
+height:50vh;
+}
+
+#footer{
+    height:3vh;
+    padding:18px;
+    font-size:1.25vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.header{
+height:70vh;
+}
+  #image{
+width:45vw;
+height:60vh;
+}
+
+#footer{
+    height:4vh;
+    padding:20px;
+    font-size:1.25vw;
+  }
+}
